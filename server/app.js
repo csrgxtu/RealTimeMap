@@ -25,7 +25,7 @@ app.put('/info', function (req, res) {
 })
 
 app.listen(9999, 'localhost', function() {
-  console.log("listen on localhost:8080")
+  console.log("listen on localhost:9999")
 })
 
 maptail.config.onlyLookups = true
