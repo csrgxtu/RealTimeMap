@@ -24,7 +24,7 @@ app.put('/info', function (req, res) {
   res.send('ok')
 })
 
-app.listen(9999, 'localhost', function() {
+app.listen(9999, function() {
   console.log("listen on localhost:9999")
 })
 
