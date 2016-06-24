@@ -29,4 +29,4 @@ app.listen(9999, function() {
 })
 
 maptail.config.onlyLookups = true
-maptail.config.bufferTime = 3000
+//maptail.config.bufferTime = 3000
