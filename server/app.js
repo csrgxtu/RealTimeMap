@@ -12,6 +12,8 @@ maptail.attach(app)
 
 
 app.put('/info', function (req, res) {
+  console.log(req.body);
+  
   // ip method path time
   maptail.emit('ip'
   , req.body.ip
