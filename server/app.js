@@ -13,7 +13,7 @@ maptail.attach(app)
 
 app.put('/info', function (req, res) {
   console.log(req.body);
-  
+
   // ip method path time
   maptail.emit('ip'
   , req.body.ip
@@ -21,9 +21,9 @@ app.put('/info', function (req, res) {
     + req.body.method + ' '
     + req.body.path.yellow
     + req.body.user_agent.red
-  )
+  );
 
-  res.send('ok')
+  res.send('ok');
 })
 
 app.listen(9999, function() {
@@ -31,4 +31,4 @@ app.listen(9999, function() {
 })
 
 maptail.config.onlyLookups = true
-//maptail.config.bufferTime = 3000
+maptail.config.bufferTime = 30
