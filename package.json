@@ -1,0 +1,24 @@
+{
+  "author": "George Stagas <gstagas@gmail.com> (http://stagas.com)",
+  "name": "maptail",
+  "description": "maptail is a realtime map view of GeoIP data",
+  "version": "0.1.10",
+  "repository": {
+    "url": "git://github.com/stagas/maptail.git"
+  },
+  "bin": {
+    "maptail": "./bin/maptail"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "express": "~2.5.8",    
+    "simpl": "~0.4.0",
+    "geoip-lite": "~1.1.6"
+  },
+  "devDependencies": {
+    "colors": "*"
+  }
+}
